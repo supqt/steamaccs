@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+body {
+background-color:#0d0d0d;
+font-family: Fira Code;
+  text-align: left;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+  border-style: dotted;
+  border-color: #616161;
+  padding-left: 35px;
+  padding-bottom: 35px;
+  padding-top: 20px;
+  margin-top: 35px;
+  line-height: 14px;
+}
+
+label {font-size: 15px}
+
+h2 {
+  color:#FFFFFF;
+  line-height: 30px;}
+.button {
+  background-color: #000000;
+  border: dotted;
+  border-color: #616161;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Fira Code;
+  margin: 4px 2px;
+  cursor: pointer;}
+  label {color:white;}
+  
+</style>
+  <title>Accounts</title>
+</head>
+
+<style>
+.button:hover {
+  background-color: white; /* Change 'red' to any color you like */
+  color: black;
+  border-color: white;
+}
+.button2:hover {
+  background-color: #76B900;
+  color: white;
+  border-color: #76B900;
+}
+</style>
+
+<body>
+  <h2>Cyberpunk 2077, Battlefield V, Resident Evil Village</h2> <!-- Added heading with the text -->
+
+  <label for="username">Username</label>
+  <button class="button" onclick="copyText('1030649507')">Copy</button>
+
+  <label for="password">Password</label>
+  <button class="button" onclick="copyText('70Games.net194')">Copy</button>
+  
+  <label for="link">GFN WEB</label>
+  <button class="button button2" onclick="window.open('https://play.geforcenow.com/games?game-id=e5fc8a96-2cda-49ef-bd13-513bdc68045b&lang=en_GB&asset-id=01_1714b549-e64c-48fe-b7b6-adc485f78e26', '_blank')">OPEN</button>
+  
+  <h2>Hitman 1,2,3</h2> <!-- Added heading with the text -->
+
+  <label for="username">Username</label>
+  <button class="button" onclick="copyText('zxxw21610')">Copy</button>
+
+  <label for="password">Password</label>
+  <button class="button" onclick="copyText('zuobiao8322')">Copy</button>
+
+  <h2>World War Z: Aftermath</h2> <!-- Added heading with the text -->
+
+  <label for="username">Username</label>
+  <button class="button" onclick="copyText('jwqq83521')">Copy</button>
+
+  <label for="password">Password</label>
+  <button class="button" onclick="copyText('Tthbgv629')">Copy</button>
+
+  <h2>Starfield</h2> <!-- Added heading with the text -->
+
+  <label for="username">Username</label>
+  <button class="button" onclick="copyText('fffjy68947')">Copy</button>
+
+  <label for="password">Password</label>
+  <button class="button" onclick="copyText('class123123.')">Copy</button>
+
+  <h2>Ready or Not</h2> <!-- Added heading with the text -->
+
+  <label for="username">Username</label>
+  <button class="button" onclick="copyText('wbtq1086101')">Copy</button>
+
+  <label for="password">Password</label>
+  <button class="button" onclick="copyText('steamok987789')">Copy</button>
+
+  <label for="username">Username - 2</label>
+  <button class="button" onclick="copyText('teq7891')">Copy</button>
+
+  <label for="password">Password - 2</label>
+  <button class="button" onclick="copyText('Dcb348924a')">Copy</button>
+
+  <h2>Need for Speed: Heat</h2> <!-- Added heading with the text -->
+
+  <label for="username">Username</label>
+  <button class="button" onclick="copyText('Simob17')">Copy</button>
+
+  <label for="password">Password</label>
+  <button class="button" onclick="copyText('Simonebarbara170913')">Copy</button>
+
+  <h2>FIFA 22, Assetto Corsa, Forza Horizon 4, F1 2020,21,22, Torque Drift</h2> <!-- Added heading with the text -->
+
+  <label for="username">Username</label>
+  <button class="button" onclick="copyText('yurivh05')">Copy</button>
+
+  <label for="password">Password</label>
+  <button class="button" onclick="copyText('yurivh2005')">Copy</button>
+
+  <h2>Marvel Avengers: Difinitive Edition, Mafia: Definitife Edition, Max Payne 3, Insurgency: Sandstorm</h2> <!-- Added heading with the text -->
+
+  <label for="username">Username</label>
+  <button class="button" onclick="copyText('savielili1')">Copy</button>
+
+  <label for="password">Password</label>
+  <button class="button" onclick="copyText('70Games.net047')">Copy</button>
+
+  <h2>RDR-2, GTA-V, RE:2,3, Hunt: Showdown, Rainbow Six Siege, Hell Let Loose, Detroit</h2> <!-- Added heading with the text -->
+
+  <label for="username">Username</label>
+  <button class="button" onclick="copyText('gehmalbierholenhd')">Copy</button>
+
+  <label for="password">Password</label>
+  <button class="button" onclick="copyText('QGUR9kkm')">Copy</button>
+
+  <h2>Rainbow Six Siege (UBISOFT)</h2> <!-- Added heading with the text -->
+
+  <label for="username">Username</label>
+  <button class="button" onclick="copyText('berkayoelde@gmail.com')">Copy</button>
+
+  <label for="password">Password</label>
+  <button class="button" onclick="copyText('Berkay22..')">Copy</button>
+
+  <h2>Sniper Elite 5</h2> <!-- Added heading with the text -->
+
+  <label for="username">Username</label>
+  <button class="button" onclick="copyText('ltbh66829')">Copy</button>
+
+  <label for="password">Password</label>
+  <button class="button" onclick="copyText('chengyutk65tk')">Copy</button>
+
+  <h2>A Plague Tale Requiem</h2> <!-- Added heading with the text -->
+
+  <label for="username">Username</label>
+  <button class="button" onclick="copyText('ydc8003')">Copy</button>
+
+  <label for="password">Password</label>
+  <button class="button" onclick="copyText('Dh943932')">Copy</button>
+
+  <h2>Guardians of the Galaxy</h2> <!-- Added heading with the text -->
+
+  <label for="username">Username</label>
+  <button class="button" onclick="copyText('liugezh10')">Copy</button>
+
+  <label for="password">Password</label>
+  <button class="button" onclick="copyText('SNSD0O,.123456')">Copy</button>
+
+  <h2>Lies of P: Deluxe Edition</h2> <!-- Added heading with the text -->
+
+  <label for="username">Username</label>
+  <button class="button" onclick="copyText('wnwrs38159')">Copy</button>
+
+  <label for="password">Password</label>
+  <button class="button" onclick="copyText('uqwi04847Q')">Copy</button>
+
+
+
+
+  <script>
+    function copyText(text) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text)
+          .then(() => {
+            console.log('Text copied to clipboard');            
+          })
+          .catch((error) => {
+            console.error('Failed to copy text: ', error);
+            alert('Failed to copy text: ' + error);
+          });
+      } else {
+        var textarea = document.createElement('textarea');
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+        console.log('Text copied to clipboard');        
+      }
+    }
+  </script>
+</body>
+</html>
+
+
+
