@@ -1,6 +1,6 @@
 body {
-background-color:#0d0d0d;
-font-family: Fira Code;
+  background-color: #0d0d0d;
+  font-family: Fira Code;
   text-align: left;
   margin-left: 35px;
   margin-right: 35px;
@@ -15,11 +15,15 @@ font-family: Fira Code;
   line-height: 14px;
 }
 
-label {font-size: 15px}
+label {
+  font-size: 15px
+}
 
 h2 {
-  color:#FFFFFF;
-  line-height: 40px;}
+  color: #FFFFFF;
+  line-height: 40px;
+}
+
 .button {
   background-color: #000000;
   border: solid;
@@ -36,17 +40,22 @@ h2 {
   font-size: 16px;
   font-family: Fira Code;
   margin: 4px 2px;
-  cursor: pointer;}
-  label {color:white;}
+  cursor: pointer;
+}
+
+label {
+  color: white;
+}
 
 .button:hover {
-  background-color: white; /* Change 'red' to any color you like */
+  background-color: white;
   color: black;
   border-color: white;
   transition: background-color 0.3s ease;
   transition: border-color 0.3s ease;
 
 }
+
 .button2:hover {
   background-color: #76B900;
   color: white;
