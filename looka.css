@@ -1,0 +1,40 @@
+body {
+background-color:#0d0d0d;
+font-family: Fira Code;
+  text-align: left;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+  border-style: solid;
+  border-radius: 7px;
+  border-color: #616161;
+  padding-left: 35px;
+  padding-bottom: 35px;
+  padding-top: 20px;
+  margin-top: 35px;
+  line-height: 14px;
+}
+
+label {font-size: 15px}
+
+h2 {
+  color:#FFFFFF;
+  line-height: 40px;}
+.button {
+  background-color: #000000;
+  border: solid;
+  border-radius: 7px;
+  border-color: #616161;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Fira Code;
+  margin: 4px 2px;
+  cursor: pointer;}
+  label {color:white;}
