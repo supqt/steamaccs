@@ -45,7 +45,7 @@
  }
 
  .button3 {
-   border-radius: 5px;
+   border-radius: 20px;
    background-color: #FFFFFF;
    border-color: #FFFFFF;
    color: black;
@@ -74,5 +74,5 @@
    background-color: #5964F1;
    color: white;
    border-color: #5964F1;
-   border-radius: 5px;
+   border-radius: 20px;
  }
