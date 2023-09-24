@@ -20,6 +20,33 @@
    color: white;
  }
 
+ #parentDiv {
+  position: relative;
+  height: 1vh; /* Adjust this value as needed */
+}
+
+#discordSection {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#discordLabel {
+  margin-right: 10px; /* Adjust this value as needed */
+}
+
+#discordSection {
+  margin-top: -55px;
+}
+
+html body {
+  margin-top: 58px;
+}
+
  h2 {
    color: #FFFFFF;
    line-height: 40px;
@@ -76,3 +103,21 @@
    border-color: #5964F1;
    border-radius: 20px;
  }
+
+ /* This applies to the whole page */
+::-webkit-scrollbar {
+  width: 12px; /* Adjust to desired width */
+}
+
+::-webkit-scrollbar-track {
+  background: #222; /* Dark track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555; /* Darker thumb */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888; /* Even darker when hovered */
+}
