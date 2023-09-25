@@ -22,7 +22,7 @@
 
  #parentDiv {
   position: relative;
-  height: 1vh; /* Adjust this value as needed */
+  height: 1vh;
 }
 
 #discordSection {
@@ -36,7 +36,7 @@
 }
 
 #discordLabel {
-  margin-right: 10px; /* Adjust this value as needed */
+  margin-right: 10px;
 }
 
 #discordSection {
@@ -102,20 +102,20 @@ html body {
    border-radius: 20px;
  }
 
- /* This applies to the whole page */
+
 ::-webkit-scrollbar {
-  width: 12px; /* Adjust to desired width */
+  width: 12px; 
 }
 
 ::-webkit-scrollbar-track {
-  background: #222; /* Dark track */
+  background: #222;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #555; /* Darker thumb */
-  border-radius: 5px;
+  background: #555;
+  border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #888; /* Even darker when hovered */
+  background: #888;
 }
