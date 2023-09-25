@@ -69,6 +69,7 @@ html body {
    font-family: Fira Code;
    margin: 4px 2px;
    cursor: pointer;
+   transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
  }
 
  .button3 {
@@ -86,10 +87,7 @@ html body {
    background-color: white;
    color: black;
    border-color: white;
-   transition: background-color 0.3s ease;
-   transition: border-color 0.3s ease;
-
- }
+}
 
  .button2:hover {
    background-color: #76B900;
