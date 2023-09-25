@@ -15,7 +15,7 @@
 
     <div id="parentDiv">
       <div id="discordSection">
-        <label id="discordLabel" for="link">MORE ACCOUNTS IN DISCORD</label>
+        <label id="discordLabel" for="link">More Accounts in Discord -></label>
         <button class="button button3" onclick="window.open('https://discord.com/channels/995869576430624860/1078272664218640444', '_blank')">Join</button>
       </div>
     </div>
@@ -236,28 +236,68 @@
     <label for="password">Password</label>
     <button class="button" onclick="copyText('aierdeng9994')">Copy</button>
 
-    <script>
-      function copyText(text) {
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(text)
-            .then(() => {
-              console.log('Text copied to clipboard');
-            })
-            .catch((error) => {
-              console.error('Failed to copy text: ', error);
-              alert('Failed to copy text: ' + error);
-            });
-        } else {
-          var textarea = document.createElement('textarea');
-          textarea.value = text;
-          document.body.appendChild(textarea);
-          textarea.select();
-          document.execCommand('copy');
-          document.body.removeChild(textarea);
-          console.log('Text copied to clipboard');
-        }
-      }
+    <h2>Call of Duty®: Modern Warfare® II - Campaign, Multiplayer</h2>
 
+    <label for="username">Username</label>
+    <button class="button" onclick="copyText('cgxa7490')">Copy</button>
+
+    <label for="password">Password</label>
+    <button class="button" onclick="copyText('www.a147')">Copy</button>
+
+    <script>
+  function copyText(text) {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text)
+      .then(() => {
+        console.log('Text copied to clipboard');
+        showCopiedMessage();
+      })
+      .catch((error) => {
+        console.error('Failed to copy text: ', error);
+        alert('Failed to copy text: ' + error);
+      });
+  } else {
+    var textarea = document.createElement('textarea');
+    textarea.value = text;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+    console.log('Text copied to clipboard');
+    showCopiedMessage();
+  }
+}
+
+function showCopiedMessage() {
+  var message = document.createElement('div');
+  message.innerText = 'Copied!';
+  message.style.position = 'fixed';
+  message.style.top = '95%';
+  message.style.left = '50%';
+  message.style.transform = 'translate(-50%, -50%)';
+  message.style.backgroundColor = 'white';
+  message.style.color = 'black';
+  message.style.padding = '10px';
+  message.style.borderRadius = '20px';
+  message.style.opacity = '0';
+  message.style.transition = 'opacity 0.5s';
+  document.body.appendChild(message);
+  
+  // Fade in
+  setTimeout(function() {
+    message.style.opacity = '1';
+  },50);
+
+  // Fade out 
+  setTimeout(function() {
+    message.style.opacity = '0';
+  }, 850);
+
+  // Remove from DOM after fade out
+  setTimeout(function() {
+    document.body.removeChild(message);
+  }, 1500);
+}
     </script>
 
   </body>
