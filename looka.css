@@ -11,7 +11,7 @@
    padding-left: 35px;
    padding-bottom: 35px;
    padding-top: 20px;
-   margin-top: 35px;
+   margin-top: 58px;
    line-height: 14px;
  }
 
@@ -20,38 +20,32 @@
    color: white;
  }
 
- #parentDiv {
-  position: relative;
-  height: 1vh;
-}
-
-#discordSection {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+ #parentContainer {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  top: -73px; 
 }
 
-#discordLabel {
-  margin-right: 10px;
-}
-
-#discordSection {
-  margin-top: -55px;
-}
-
-html body {
-  margin-top: 58px;
-}
+ #parentDivSSFN, #parentDivDiscord, #parentDivSPPRT {
+  height: 0vh;
+ }
 
  h2 {
    color: #FFFFFF;
    line-height: 40px;
  }
 
+ h1 { 
+  color: white;
+  margin-top: -17px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 30px;
+}
+ 
  .button {
    background-color: #0d0d0d;
    border: solid;
@@ -69,6 +63,10 @@ html body {
    font-family: Fira Code;
    margin: 4px 2px;
    cursor: pointer;
+   height: 36px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: none;
    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
  }
 
@@ -80,8 +78,12 @@ html body {
    text-align: center;
    font-weight: 700px;
    font-style: normal;
+   text-transform: none;
  }
 
+ .button4, .button5 {
+  text-transform: none;
+ }
 
  .button:hover {
    background-color: white;
