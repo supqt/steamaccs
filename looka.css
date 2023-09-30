@@ -125,6 +125,34 @@ h1 {
   transform: scale(1.05);
 }
 
+.tooltip {
+  visibility: hidden;
+  background-color: rgba(22, 22, 22, 0.473);
+  color: #fff;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 12px;
+  position: absolute;
+  text-transform: none;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  transform: translate(-50%);
+  margin-left: 0px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  backdrop-filter: blur(3px);
+  box-shadow: -10px 0px 10px 3px rgba(0, 0, 0, 0.979);
+  border: solid;
+  border-color: grey;
+}
+
+.button:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.3s;
+}
+
 ::-webkit-scrollbar {
   width: 12px;
 }
