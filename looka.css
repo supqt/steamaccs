@@ -37,6 +37,14 @@ label {
   height: 0vh;
 }
 
+#parentSearchBox {
+  display: flex;
+  justify-content: left;
+  height: 0px;
+  position: relative;
+  top: -78px;
+}
+
 h2 {
   color: #ffffff;
   line-height: 40px;
@@ -151,6 +159,27 @@ h1 {
   visibility: visible;
   opacity: 1;
   transition-delay: 0.3s;
+}
+
+#searchInput {
+  width: 98%;
+  height: 100%;
+  font-size: 16px;
+  padding: 20px;
+  margin: 5px 5px;
+  margin-top: px;
+  margin-left: auto;
+  border: none;
+  border-radius: 20px;
+  background-color: #1b1b1b;
+  color: #000;
+}
+
+#searchInput:focus {
+  outline: solid;
+  outline-color: #616161;
+  background-color: #0d0d0d;
+  color: white;
 }
 
 ::-webkit-scrollbar {

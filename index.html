@@ -40,8 +40,14 @@
             onclick="window.open('https://discord.com/channels/995869576430624860/1078272664218640444', '_blank')">More Accounts in Discord
           </button>
         </div>
-      </div>
+      </div> 
     </div>
+
+      <div id="parentSearchBox">
+        <div id="SearchBox">
+          <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search for games..">
+        </div>
+      </div>
 
     <h2>Cyberpunk 2077, Battlefield V, Resident Evil Village</h2>
 
@@ -398,6 +404,35 @@
         // Append the tooltip to the button
         button.appendChild(tooltip);
       });
+
+     function searchFunction() {
+       // Declare variables
+       var input, filter, h2, i, txtValue;
+       input = document.getElementById('searchInput');
+       filter = input.value.toUpperCase();
+       h2 = document.getElementsByTagName('h2');
+
+        // Loop through all h2 items, and hide those who don't match the search query
+       for (i = 0; i < h2.length; i++) {
+       txtValue = h2[i].textContent || h2[i].innerText;
+       if (txtValue.toUpperCase().indexOf(filter) > -1) {
+       h2[i].style.display = "";
+       let sibling = h2[i].nextElementSibling;
+       while (sibling && sibling.tagName !== 'H2') {
+        sibling.style.display = "";
+        sibling = sibling.nextElementSibling;
+      }
+      } else {
+      h2[i].style.display = "none";
+      let sibling = h2[i].nextElementSibling;
+      while (sibling && sibling.tagName !== 'H2') {
+        sibling.style.display = "none";
+        sibling = sibling.nextElementSibling;
+      }
+    }
+  }
+}
+
     </script>
   </body>
 </html>
