@@ -405,33 +405,60 @@
         button.appendChild(tooltip);
       });
 
+     // Function to perform a search with a broken sort of animation
      function searchFunction() {
-       // Declare variables
-       var input, filter, h2, i, txtValue;
-       input = document.getElementById('searchInput');
-       filter = input.value.toUpperCase();
-       h2 = document.getElementsByTagName('h2');
+        // Declare variables
+        var input, filter, h2, i, txtValue;
 
-        // Loop through all h2 items, and hide those who don't match the search query
-       for (i = 0; i < h2.length; i++) {
-       txtValue = h2[i].textContent || h2[i].innerText;
-       if (txtValue.toUpperCase().indexOf(filter) > -1) {
-       h2[i].style.display = "";
-       let sibling = h2[i].nextElementSibling;
-       while (sibling && sibling.tagName !== 'H2') {
-        sibling.style.display = "";
-        sibling = sibling.nextElementSibling;
+        // Get the input value and convert it to uppercase for case-insensitive search
+        input = document.getElementById("searchInput");
+        filter = input.value.toUpperCase();
+
+        // Get all h2 elements
+        h2 = document.getElementsByTagName("h2");
+
+        // Remove the fade-in class from all elements
+        for (i = 0; i < h2.length; i++) {
+          h2[i].classList.remove("fade-in");
+
+          // Remove the fade-in class from siblings until the next h2 element
+          let sibling = h2[i].nextElementSibling;
+          while (sibling && sibling.tagName !== "H2") {
+            sibling.classList.remove("fade-in");
+            sibling = sibling.nextElementSibling;
+          }
+        }
+
+        // Loop through all h2 items, and hide or show based on the search query
+        for (i = 0; i < h2.length; i++) {
+          txtValue = h2[i].textContent || h2[i].innerText;
+
+          // If the search query is found, show the h2 element and add the fade-in class
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            h2[i].style.display = "";
+            h2[i].classList.add("fade-in");
+
+            // Show siblings and add the fade-in class to siblings until the next h2 element
+            let sibling = h2[i].nextElementSibling;
+            while (sibling && sibling.tagName !== "H2") {
+              sibling.style.display = "";
+              sibling.classList.add("fade-in");
+              sibling = sibling.nextElementSibling;
+            }
+          }
+          // If the search query is not found, hide the h2 element and its siblings
+          else {
+            h2[i].style.display = "none";
+
+            // Hide siblings until the next h2 element
+            let sibling = h2[i].nextElementSibling;
+            while (sibling && sibling.tagName !== "H2") {
+              sibling.style.display = "none";
+              sibling = sibling.nextElementSibling;
+            }
+          }
+        }
       }
-      } else {
-      h2[i].style.display = "none";
-      let sibling = h2[i].nextElementSibling;
-      while (sibling && sibling.tagName !== 'H2') {
-        sibling.style.display = "none";
-        sibling = sibling.nextElementSibling;
-      }
-    }
-  }
-}
 
     </script>
   </body>

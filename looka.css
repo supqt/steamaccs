@@ -179,7 +179,7 @@ h1 {
   background-color: #1b1b1b;
   position: absolute;
   color: #ffffff;
-  transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, transform 0.3s ease;
 }
 
 #searchInput:focus {
@@ -189,10 +189,20 @@ h1 {
   color: white;
   width: 13%;
   box-shadow: 15px 15px 10px rgb(0, 0, 0); 
+  transform: scale(1.05);
 }
 
 #searchInput::placeholder {
   font-style: italic;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fade-in {
+  animation: fadeIn 1s;
 }
 
 ::-webkit-scrollbar {
