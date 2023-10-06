@@ -6,11 +6,27 @@ body {
   border-style: none;
   border-radius: 12px;
   border-color: #616161;
-  padding-left: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 40px;
   padding-bottom: 35px;
   padding-top: 5px;
   margin-top: 100px;
   line-height: 14px;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+  background-image: url('https://papers.co/wallpaper/papers.co-sa53-blurry-sunset-blur-25-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
 }
 
 label {
@@ -41,10 +57,20 @@ label {
   margin-left: 35px;
 }
 
+html body h2 {
+  background-color: #ffffff0a;
+  border-radius: 10px;
+  padding-bottom: 22px;
+  padding-top: 22px;
+  margin-right: 40px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
 h2 {
   color: #ffffff;
   line-height: 40px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 h1 {
@@ -58,7 +84,7 @@ h1 {
 }
 
 .button {
-  background-color: #0d0d0d;
+  background-color: #0d0d0d00;
   border: solid;
   border-radius: 20px;
   border-color: #616161;
@@ -115,7 +141,7 @@ h1 {
 .button5:hover {
   transform: scale(1.05);
   border-radius: inheritfromparent;
-  box-shadow: 0px 0px 10px 5px rgb(0, 0, 0)!important;    
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.349)!important;    
 }
 
 .button:hover {
@@ -123,7 +149,7 @@ h1 {
   color: black;
   border-color: white;
   transform: scale(1.1);
-  box-shadow: 0px 0px 10px 10px rgb(0, 0, 0);
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.199);
 }
 
 .button2:hover {
@@ -157,7 +183,7 @@ h1 {
   opacity: 0;
   transition: opacity 0.3s;
   backdrop-filter: blur(4px);
-  box-shadow: -2px -2px 10px 1px rgba(0, 0, 0, 0.979);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.425);
   border: none;
   border-color: grey;
 }
@@ -191,10 +217,10 @@ h1 {
 #searchInput:focus {
   outline: solid;
   outline-color: #616161;
-  background-color: #0d0d0dc4;
+  background-color: #0d0d0d4f;
   color: white;
   width: 13%;
-  box-shadow: 0px 1px 10px 6px rgb(0, 0, 0);
+  box-shadow: 0px 1px 50px 6px rgba(0, 0, 0, 0.295);
   transform: scale(1.05);
 }
 
@@ -209,9 +235,9 @@ header {
   width: 98%;
   left: 20px;
   height: 80px;
-  margin-left: px;
+  margin-left: 0px;
   backdrop-filter: blur(10px);
-  box-shadow: 0px 0px 10px 1px rgb(0, 0, 0);
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.308);
   border-radius: 10px;
 }
 
@@ -229,7 +255,7 @@ header {
 }
 
 ::-webkit-scrollbar-track {
-  background: #222;
+  background: #222222fd;
 }
 
 ::-webkit-scrollbar-thumb {
