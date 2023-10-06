@@ -32,10 +32,7 @@ body::before {
 label {
   font-size: 15px;
   color: white;
-  padding-right: 5px;
-  padding-left: 5px;
   margin-left: 0px;
-  padding: 10px;
 }
 
 #parentContainer {
@@ -78,6 +75,15 @@ html body h1 {
   margin-left: 0px;
 }
 
+html body label {
+  background-color: #ffffff0a;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
 h2 {
   color: #ffffff;
   line-height: 40px;
@@ -95,17 +101,18 @@ h1 {
 }
 
 .button {
-  background-color: #0d0d0d00;
+  background-color: #ffffff00;
   border: solid;
-  border-radius: 20px;
-  border-color: #616161;
+  border-radius: 10px;
+  border-color: #6161616c;
   color: white;
-  padding: 5px 15px;
+  padding: 6px 15px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
   font-style: normal;
+  transform: translateY(1.2px);
   display: inline-block;
   font-size: 16px;
   font-family: Fira Code;
@@ -120,14 +127,15 @@ h1 {
 .button4,
 .button5 {
   height: 45px;
-  border: solid;
+  border: none;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: none;
-  background-color: #ffffff00;
+  background-color: #ffffff18;
   color: rgb(255, 255, 255);
   border-color: #61616177;
   margin-left: 15px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.308);
 }
   
 .button3 {
