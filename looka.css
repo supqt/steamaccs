@@ -18,10 +18,10 @@ body {
 body::before {
   content: "";
   position: fixed;
-  top: -400px;
+  top: -200px;
   rotate: 0deg;
   right: 0;
-  bottom: -40px;
+  bottom: 0px;
   left: 0;
   background-image: url('https://i.ibb.co/L1C9hJS/dark-red13.png');
   background-repeat: no-repeat;
@@ -276,14 +276,14 @@ header {
 }
 
 ::-webkit-scrollbar-track {
-  background: #1b1525;
+  background: #6d49aa34;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #312641;
+  background: #3e2f52;
   border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #888;
+  background: #644e86;
 }
