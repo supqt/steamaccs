@@ -20,9 +20,8 @@ body::before {
   position: fixed;
   top: 0;
   right: 0;
-  bottom: 0;
+  bottom: -40px;
   left: 0;
-  backdrop-filter: blur(10px);
   background-image: url('https://papers.co/wallpaper/papers.co-sa53-blurry-sunset-blur-25-wallpaper.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,7 +60,6 @@ html body h2 {
   padding-top: 22px;
   margin-right: 40px;
   padding-left: 22px;
-  padding-right: 22px;
 }
 
 html body h1 {
