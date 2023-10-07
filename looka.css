@@ -276,11 +276,11 @@ header {
 }
 
 ::-webkit-scrollbar-track {
-  background: #222222fd;
+  background: #1b1525;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #555;
+  background: #312641;
   border-radius: 2px;
 }
 
