@@ -9,15 +9,15 @@ headers.forEach(header => {
 
 // REMOVE "//" FROM #12-20 TO TURN ON INLINE BLOCK FUNCTIONALITY 
 
-// window.onload = function () {
-    // var elements = document.querySelectorAll('h1, h2');
-    // elements.forEach(function (element) {
-        // var brBefore = document.createElement('br');
-        // var brAfter = document.createElement('br');
-        // element.parentNode.insertBefore(brBefore, element);
-        // element.parentNode.insertBefore(brAfter, element.nextSibling);
-    // }); 
- // };
+ window.onload = function () {
+     var elements = document.querySelectorAll('h1, h2');
+     elements.forEach(function (element) {
+         var brBefore = document.createElement('br');
+         var brAfter = document.createElement('br');
+         element.parentNode.insertBefore(brBefore, element);
+         element.parentNode.insertBefore(brAfter, element.nextSibling);
+     }); 
+  };
 
 function copyText(text) {
   if (navigator.clipboard && navigator.clipboard.writeText) {

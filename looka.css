@@ -124,7 +124,7 @@ h1 {
 
 .h3 {
   border-color: #ffffff00;
-  display: block;
+  display: inline-block;
   padding-right: 33px !important;
 }
 
