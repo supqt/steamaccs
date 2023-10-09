@@ -1,3 +1,22 @@
+// Select all h1 and h2 elements
+let headers = document.querySelectorAll('h1, h2');
+
+// Loop through each element
+headers.forEach(header => {
+  // Add the class "h3"
+  header.classList.add('h3');
+});
+
+window.onload = function () {
+    var elements = document.querySelectorAll('h1, h2');
+    elements.forEach(function (element) {
+        var brBefore = document.createElement('br');
+        var brAfter = document.createElement('br');
+        element.parentNode.insertBefore(brBefore, element);
+        element.parentNode.insertBefore(brAfter, element.nextSibling);
+    });
+//  };
+
 function copyText(text) {
   if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard

@@ -11,7 +11,7 @@ body {
   padding-left: 40px;
   padding-bottom: 35px;
   padding-top: 5px;
-  margin-top: 100px;
+  margin-top: 95px;
   line-height: 14px;
 }
 
@@ -60,7 +60,7 @@ html body h2 {
   padding-bottom: 22px;
   padding-top: 22px;
   margin-right: 40px;
-  padding-left: 22px;
+  padding-left: 33px;
 }
 
 html body h1 {
@@ -111,7 +111,7 @@ h1 {
   text-transform: uppercase;
   font-weight: 500;
   font-style: normal;
-  transform: translateY(1.2px);
+  transform: translateY(1px);
   display: inline-block;
   font-size: 16px;
   font-family: Fira Code;
@@ -120,6 +120,12 @@ h1 {
   margin-left: 0px;
   transition: background-color 0.3s ease, border-color 0.3s ease,
     color 0.3s ease, transform 0.3s ease;
+}
+
+.h3 {
+  border-color: #ffffff00;
+  display: inline-block;
+  padding-right: 33px !important;
 }
 
 .button3,
@@ -257,7 +263,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   backdrop-filter: blur(20px); 
-  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.308);
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.308);
   border-radius: 10px;
   z-index: 2;
 }
