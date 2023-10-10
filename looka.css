@@ -23,7 +23,7 @@ body::before {
   right: 0;
   bottom: 0px;
   left: 0;
-  background-image: url('https://i.ibb.co/L1C9hJS/dark-red13.png');
+  background-image: url('https://i.postimg.cc/4Ns8dJq2/maxresdefault-sqp-oaymw-Em-CIAKENAF8qu-Kq-QMa8-AEB-AH-CYAC0-AWKAgw-IABABGCsg-ZShj-MA8-rs-AOn4-CLBJm-AYO6-M2-Ng1.png');
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
@@ -42,7 +42,7 @@ label {
   position: relative;
   top: 11.5px;
   right: 20px;
-  gap: 0px;
+  gap: 10px;
 }
 
 #parentSearchBox {
@@ -140,7 +140,7 @@ h1 {
   color: rgb(255, 255, 255);
   border-color: #61616177;
   margin-left: 15px;
-  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.308);
+  box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.308);
 }
   
 .button3 {
@@ -165,7 +165,7 @@ h1 {
 .button5:hover {
   transform: scale(1.05);
   border-radius: inheritfromparent;
-  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.349)!important;    
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.349)!important;    
 }
 
 .button:hover {
@@ -282,14 +282,14 @@ header {
 }
 
 ::-webkit-scrollbar-track {
-  background: #6d49aa34;
+  background: #1e4442;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3e2f52;
+  background: #2a5f5c;
   border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #644e86;
+  background: #337470;
 }
