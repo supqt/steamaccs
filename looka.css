@@ -72,6 +72,8 @@ html body h1 {
   padding-right: 22px;
   padding-top: 5px;
   margin-left: 0px;
+  margin-bottom: 0px;
+  transform: translateY(-10px);
 }
 
 html body label {
