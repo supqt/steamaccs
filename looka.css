@@ -23,7 +23,7 @@ body::before {
   right: 0;
   bottom: 0px;
   left: 0;
-  background-image: url('https://i.postimg.cc/4Ns8dJq2/maxresdefault-sqp-oaymw-Em-CIAKENAF8qu-Kq-QMa8-AEB-AH-CYAC0-AWKAgw-IABABGCsg-ZShj-MA8-rs-AOn4-CLBJm-AYO6-M2-Ng1.png');
+  background-image: url('https://i.postimg.cc/bYLRzFk8/blurrrrrr.png');
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
@@ -51,7 +51,7 @@ label {
   height: 0px;
   position: relative;
   top: -39px;
-  margin-left: 35px;
+  margin-left: 50px;
 }
 
 html body h2 {
@@ -280,18 +280,18 @@ header {
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 0px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #1e4442;
+  background: rgba(0, 0, 0, 0.1);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2a5f5c;
+  background: #2b2b2b;
   border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #337470;
+  background: #4e4e4e;
 }
