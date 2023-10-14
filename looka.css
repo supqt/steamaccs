@@ -1,4 +1,5 @@
 body {
+  background-color: #0d0d0d;
   font-family: Fira Code;
   text-align: left;
   margin-bottom: 35px;
@@ -12,10 +13,10 @@ body {
   padding-top: 5px;
   margin-top: 80px;
   line-height: 14px;
-  background: radial-gradient(circle at 50% 50%, rgba(49, 24, 24, 0.911), rgb(32, 23, 48), rgb(20, 40, 51));
-  background-size: 200% 200%;
+  background: radial-gradient(circle at 50% 50%, rgb(32, 15, 43), rgb(0, 0, 0));
+  background-size: 300% 300%;
   background-attachment: fixed;
-  animation: gradient 50s linear infinite;  
+  animation: gradient 50s ease-in-out infinite;  
 }
 
 @keyframes gradient {
@@ -82,7 +83,7 @@ html body h1 {
   padding-top: 5px;
   margin-left: 0px;
   margin-bottom: 0px;
-  transform: translateY(-10px);
+  transform: translateY(-8px);
 }
 
 html body label {
