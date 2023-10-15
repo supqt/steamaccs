@@ -12,17 +12,7 @@ body {
   padding-bottom: 35px;
   padding-top: 5px;
   margin-top: 80px;
-  line-height: 14px;
-  background: radial-gradient(circle at 50% 50%, rgb(32, 15, 43), rgb(0, 0, 0));
-  background-size: 300% 300%;
-  background-attachment: fixed;
-  animation: gradient 50s ease-in-out infinite;  
-}
-
-@keyframes gradient {
-  0% {background-position: 100% 0;}
-  50% {background-position: 0 100%;}
-  100% {background-position: 100% 0;}
+  line-height: 14px;    
 }
 
 body::before {
@@ -33,10 +23,25 @@ body::before {
   right: 0;
   bottom: 0px;
   left: 0;
+  will-change: background-position;
+
   -----------------------------------background-image: url('https://i.postimg.cc/bYLRzFk8/blurrrrrr.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  -----------------------------------background-repeat: no-repeat;
+  -----------------------------------background-size: cover;
+
+  background: radial-gradient(circle at 50% 50%, rgb(32, 15, 43), rgb(0, 0, 0));
+  background-size: 200% 200%;
+  background-attachment: fixed;
+  animation: gradient 50s ease-in-out infinite;
   z-index: -1;
+}
+
+@keyframes gradient {
+  0% {background-position: 0% 0%;}
+  25% {background-position: 100% 0%;}
+  50% {background-position: 100% 100%;}
+  75% {background-position: 0% 100%;}
+  100% {background-position: 0% 0%;}
 }
 
 label {
