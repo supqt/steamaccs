@@ -29,7 +29,7 @@ body::before {
   -----------------------------------background-repeat: no-repeat;
   -----------------------------------background-size: cover;
 
-  background: radial-gradient(circle at 50% 50%, rgb(32, 15, 43), rgb(0, 0, 0), rgb(32, 0, 13));
+  background: radial-gradient(circle at 50% 50%, rgb(32, 15, 43), rgb(0, 0, 0), rgb(32, 15, 43));
   background-size: 300% 300%;
   background-attachment: fixed;
   animation: gradient 40s ease-in-out infinite;
