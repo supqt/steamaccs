@@ -1,1 +1,1 @@
-<img src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-09-24/c0ca7456af731fba6b33ebe7ae5ceb92.ico.png" alt="Pepega" width="16" height="16"> [Steamaccs](https://steamacc.pages.dev)
+<img src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-09-24/c0ca7456af731fba6b33ebe7ae5ceb92.ico.png" alt="Pepega" width="16" height="16"> [Steamaccs](https://steamaccs.pages.dev)
