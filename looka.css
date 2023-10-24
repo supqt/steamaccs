@@ -314,3 +314,45 @@ header {
 ::-webkit-scrollbar-thumb:hover {
   background: #4e4e4e;
 }
+
+@media screen and (max-width: 480px) {
+    header {
+    height: 16%;     
+  }
+
+  #searchInput {
+  top: 65px;
+  width: 80%;
+  }
+
+  #searchInput:focus{
+    width: 80%;
+  }
+
+  body {
+    margin-top: 150px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .button3, .button4, .button5 {
+    font-size: 12px;
+    overflow: hidden;
+    margin-left: 20px;
+    }
+
+  h1, h3, label, .button{
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  h2{
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  #parentContainer{
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+}
