@@ -149,6 +149,10 @@ h1 {
   padding-right: 33px !important;
 }
 
+h1.h3 {
+  padding-right: 22px !important;
+}
+
 .button3,
 .button4,
 .button5 {
