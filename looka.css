@@ -212,7 +212,7 @@ h1.h3 {
   color: white;
   border-color: #5964f1;
   border-radius: inheritfromparent;
-  transform: scale(1.05);
+  transform: scale(1.10);
 }
 
 .tooltip {
