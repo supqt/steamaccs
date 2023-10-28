@@ -1,6 +1,6 @@
 body {
   background-color: #0d0d0d;
-  font-family: Fira Code;
+  font-family: Roboto Mono,monospace;
   text-align: left;
   margin-bottom: 35px;
   border-style: none;
@@ -98,12 +98,14 @@ html body label {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
+  font-weight: 1;
 }
 
 h2 {
   color: #ffffff;
   line-height: 40px;
   margin-left: 0px;
+  font-weight: 10;
 }
 
 h2.hidehim {
@@ -116,7 +118,7 @@ h1 {
   margin-bottom: 20px;
   font-size: 14px;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 10;
   line-height: 30px;
 }
 
@@ -130,9 +132,9 @@ h1 {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 10;
   font-style: normal;
-  transform: translateY(1px);
+  transform: translateY(0.5px);
   display: inline-block;
   font-size: 16px;
   font-family: Fira Code;
@@ -198,6 +200,7 @@ h1.h3 {
   color: black;
   border-color: white;
   transform: scale(1.1);
+  font-weight: 500;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.199);
 }
 
@@ -247,6 +250,7 @@ h1.h3 {
   width: 10.5%;
   height: 100%;
   font-size: 16px;
+  font-family: Roboto Mono,monospace;
   padding: 20px;
   margin: 5px 5px;
   margin-top: px;
@@ -261,6 +265,7 @@ h1.h3 {
   position: absolute;
   color: #ffffff;
   transition: width 0.3s ease-in-out, transform 0.3s ease;
+  padding-bottom: 22px;
 }
 
 #searchInput:focus {
