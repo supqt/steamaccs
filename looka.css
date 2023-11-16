@@ -12,7 +12,11 @@ body {
   padding-bottom: 35px;
   padding-top: 5px;
   margin-top: 80px;
-  line-height: 14px;    
+  line-height: 14px;   
+  background: radial-gradient(circle at 50% 50%, rgb(25, 15, 43), rgb(0, 0, 0) );
+  background-size: 300% 300%;
+  background-attachment: fixed;
+  animation: gradient 40s ease-in-out infinite; 
 }
 
 body::before {
@@ -28,11 +32,6 @@ body::before {
   -----------------------------------background-image: url('https://i.postimg.cc/bYLRzFk8/blurrrrrr.png');
   -----------------------------------background-repeat: no-repeat;
   -----------------------------------background-size: cover;
-
-  background: radial-gradient(circle at 50% 50%, rgb(25, 15, 43), rgb(0, 0, 0) );
-  background-size: 300% 300%;
-  background-attachment: fixed;
-  animation: gradient 40s ease-in-out infinite;
   z-index: -1;
 }
 
@@ -67,6 +66,39 @@ label {
   position: relative;
   top: -39px;
   margin-left: 50px;
+}
+
+#colorToggle {
+  height: 45px;
+  border: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: none;
+  background-color: #ffffff17;;
+  color: rgb(255, 255, 255);
+  border-color: #61616177;
+  box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.308);
+  border-radius: 10px;
+  font-family: Roboto Mono,monospace;
+  padding: 0px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, border-color 0.3s ease,
+              color 0.3s ease, transform 0.3s ease;
+  }
+
+  body.alternateColors {
+    background: radial-gradient(circle at 50% 50%, rgb(54, 35, 0), rgb(80, 33, 56));
+    background-size: 300% 300%;
+    background-attachment: fixed;
+    animation: gradient 40s ease-in-out infinite; 
+}
+
+#colorToggle:hover {
+  transform: scale(1.05);
+  border-radius: inheritfromparent;
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.349)!important;  
 }
 
 html body h2 {

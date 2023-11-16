@@ -1,3 +1,8 @@
+// This is for the retarded color switcher
+document.getElementById('colorToggle').addEventListener('click', function() {
+    document.body.classList.toggle('alternateColors');
+});
+
 // Select all h1 and h2 elements
 let headers = document.querySelectorAll('h1, h2');
 
