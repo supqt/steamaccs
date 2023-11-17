@@ -1,4 +1,4 @@
-// This is for the retarded color switcher
+// This is for the retarded color switcher (remove everything related to colorToggle if it breaks anything)
 document.getElementById('colorToggle').addEventListener('click', function() {
     document.body.classList.toggle('alternateColors');
 });
@@ -87,9 +87,8 @@ buttons.forEach(function(button) {
   // Get the onclick attribute value
   var onclickValue = button.getAttribute("onclick");
 
-  // Extract the copyText value
-  var copyText = onclickValue.split("'")[1];
-
+  // Check if onclickValue is not null before calling split
+  var copyText = onclickValue ? onclickValue.split("'")[1] : null;
   // Create a span element for the tooltip
   var tooltip = document.createElement("span");
   tooltip.classList.add("tooltip");

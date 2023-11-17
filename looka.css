@@ -86,17 +86,17 @@ label {
   font-size: 16px;
   transition: background-color 0.3s ease, border-color 0.3s ease,
               color 0.3s ease, transform 0.3s ease;
-  }
+}
 
-  body.alternateColors {
-    background: radial-gradient(circle at 50% 50%, rgb(54, 35, 0), rgb(80, 33, 56));
-    background-size: 300% 300%;
-    background-attachment: fixed;
-    animation: gradient 40s ease-in-out infinite; 
+body.alternateColors {
+  background: radial-gradient(circle at 50% 50%, rgb(54, 35, 0), rgb(80, 33, 56));
+  background-size: 300% 300%;
+  background-attachment: fixed;
+  animation: gradient 40s ease-in-out infinite; 
 }
 
 #colorToggle:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
   border-radius: inheritfromparent;
   box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.349)!important;  
 }
@@ -233,7 +233,7 @@ h1.h3 {
   border-color: white;
   transform: scale(1.1);
   font-weight: 500;
-  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.199);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.199);
 }
 
 .button2:hover {
@@ -267,7 +267,7 @@ h1.h3 {
   opacity: 0;
   transition: opacity 0.3s;
   backdrop-filter: blur(4px);
-  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.596);
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.450);
   border: none;
   border-color: grey;
 }
