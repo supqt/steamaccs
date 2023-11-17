@@ -86,7 +86,6 @@ var buttons = document.querySelectorAll("button");
 buttons.forEach(function(button) {
   // Get the onclick attribute value
   var onclickValue = button.getAttribute("onclick");
-
   // Check if onclickValue is not null before calling split
   var copyText = onclickValue ? onclickValue.split("'")[1] : null;
   // Create a span element for the tooltip
