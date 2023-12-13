@@ -1,6 +1,13 @@
 // This is for the retarded color switcher (remove everything related to colorToggle if it breaks anything)
 document.getElementById('colorToggle').addEventListener('click', function() {
     document.body.classList.toggle('alternateColors');
+    localStorage.setItem('colorToggle', document.body.classList.contains('alternateColors'));
+});
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    if (localStorage.getItem('colorToggle') === 'true') {
+        document.body.classList.add('alternateColors');
+    }
 });
 
 // Select all h1 and h2 elements
