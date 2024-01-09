@@ -133,6 +133,10 @@ html body label {
   font-weight: 1;
 }
 
+#LH1 {
+  translate: 0px 20px;
+}
+
 h2 {
   color: #ffffff;
   line-height: 40px;
@@ -266,8 +270,8 @@ h1.h3 {
   margin-left: 0px;
   opacity: 0;
   transition: opacity 0.3s;
-  backdrop-filter: blur(4px);
-  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.450);
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.329);
   border: none;
   border-color: grey;
 }
