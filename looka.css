@@ -344,7 +344,8 @@ header {
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 10px;
+  background-color: #000000;
 }
 
 ::-webkit-scrollbar-track {
