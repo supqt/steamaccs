@@ -16,7 +16,7 @@ body {
   background: radial-gradient(circle at 50% 50%, rgb(25, 15, 43), rgb(0, 0, 0) );
   background-size: 300% 300%;
   background-attachment: fixed;
-  animation: gradient 40s ease-in-out infinite; 
+  animation: gradient 75s ease-in-out infinite; 
 }
 
 body::before {
@@ -92,7 +92,7 @@ body.alternateColors {
   background: radial-gradient(circle at 50% 50%, rgb(54, 35, 0), rgb(80, 33, 56));
   background-size: 300% 300%;
   background-attachment: fixed;
-  animation: gradient 40s ease-in-out infinite; 
+  animation: gradient 75s ease-in-out infinite; 
 }
 
 #colorToggle:hover {
